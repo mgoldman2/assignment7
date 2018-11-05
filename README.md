@@ -10,7 +10,7 @@ Time spent: **X** hours spent in total
   - [ ] Summary: I downloaded the 20mb file and renamed it the exploit file and uploaded it to the local host.
     - Vulnerability types:
     - Tested in version:
-    - Fixed in version: 
+    - Fixed in version: 4.2.15
   - [ ] GIF Walkthrough: Gif_1
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
