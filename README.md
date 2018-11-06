@@ -7,7 +7,7 @@ Time spent: **X** hours spent in total
 ## Pentesting Report
 
 1. (Required) 8819 
-  - [ ] Summary: I downloaded the 20mb file and renamed it the exploit file and uploaded it to the local host.
+  - [ ] Summary: I downloaded the 20mb file and renamed it the exploit file and uploaded it to the local host. The site itself couldn't handle the size of the file, therefore revealing the exploit.
     - Vulnerability types:
     - Tested in version:
     - Fixed in version: 4.2.15
@@ -15,18 +15,18 @@ Time spent: **X** hours spent in total
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
+1. (Required) Authenticated Cross-Site Scripting (XSS)via Media File Metadata
+  - [ ] Summary: The version used of wordpress had a vulnerability, the audio file that was uploaded had malicious information. Wordpress has a vulnerability when using cross-scripting, this can be found and processed using the playlist shortcode.
     - Vulnerability types:
     - Tested in version:
-    - Fixed in version: 
+    - Fixed in version: 4.2.13
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: 
-    - Vulnerability types:
+    - Vulnerability types:22
     - Tested in version:
     - Fixed in version: 
   - [ ] GIF Walkthrough: 
