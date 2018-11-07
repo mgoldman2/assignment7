@@ -24,12 +24,12 @@ Time spent: **X** hours spent in total
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
+1. (Required) 4.2
+  - [ ] Summary: By overflowing the server checker with cross-site scripting, the website wasn't able to filter out the large data size of "A" keys.
     - Vulnerability types:22
     - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
+    - Fixed in version: 4.2.1
+  - [ ] GIF Walkthrough: Final-Gif1.gif
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
